@@ -12,7 +12,6 @@ body{
     font-family: 'Garamond', sans-serif;
     background-color: #101214;
     color: #7A7C80;
-
 }
 
 h2,.white{
@@ -48,6 +47,7 @@ a{
 .section-2{
     padding-top: 10vh;
     width: 85%;
+    font-size: 1.1rem;
 }
 
 .section-2 h2{
@@ -62,9 +62,8 @@ a{
 }
 
 .section-2 a{
-    display: block;
     padding: 5px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-left: 0;
     width: 100px;
 }
@@ -85,7 +84,7 @@ a{
 .team img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  width: 80%;
+  width: 70%;
   border-radius: 50%;
 }
 
@@ -106,6 +105,10 @@ a{
 .white:hover{
     position: relative;
     padding-left: 10px;
+}
+
+.disclaimer{
+  font-style: italic;
 }
 
 /* media queres */
